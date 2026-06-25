@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8868体育 – 稳定访问与页面说明</title>
+  <style>
+    /* 极简留白 · 窄正文 · 清晰层级 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #faf9f7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #262626;
+      line-height: 1.7;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 2.5rem 2rem;
+      border-radius: 32px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 4px 20px rgba(0,0,0,0.03);
+    }
+
+    /* 顶部导航 —— 极简文字链 */
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #eae7e3;
+      margin-bottom: 2.8rem;
+    }
+
+    .nav-brand {
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      font-size: 1.3rem;
+      color: #1d1d1b;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.8rem;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #585550;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #1d1d1b;
+      border-bottom-color: #1d1d1b;
+    }
+
+    /* 标题层级 */
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      line-height: 1.3;
+      margin-bottom: 0.5rem;
+      color: #151514;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 450;
+      letter-spacing: -0.005em;
+      margin: 2.8rem 0 1.2rem;
+      color: #1f1e1c;
+      border-bottom: 1px solid #edebe8;
+      padding-bottom: 0.6rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 450;
+      margin-bottom: 0.5rem;
+      color: #2b2927;
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+      font-size: 1rem;
+      color: #3c3a37;
+    }
+
+    .subhead {
+      font-size: 1.05rem;
+      color: #5b5752;
+      margin-bottom: 1.8rem;
+      font-weight: 400;
+    }
+
+    /* 卡片式场景模块 */
+    .scene-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.8rem;
+      margin: 2rem 0;
+    }
+
+    .scene-card {
+      background-color: #f8f6f3;
+      padding: 1.6rem 1.8rem;
+      border-radius: 24px;
+      transition: background 0.2s;
+    }
+
+    .scene-card:hover {
+      background-color: #f2efeb;
+    }
+
+    .scene-card p {
+      margin-bottom: 0.3rem;
+      font-size: 0.95rem;
+    }
+
+    .scene-note {
+      font-size: 0.9rem;
+      color: #7a746e;
+      margin-top: 0.4rem;
+      line-height: 1.5;
+    }
+
+    /* 说明 / FAQ 摘要 */
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-item strong {
+      display: block;
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+      color: #2b2927;
+    }
+
+    .faq-item p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+      color: #4f4b46;
+    }
+
+    /* 链接样式（正文内嵌入） */
+    a {
+      color: #2f5e8a;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      text-decoration-color: #cbdae6;
+    }
+
+    a:hover {
+      color: #1a3b57;
+      text-decoration-color: #1a3b57;
+    }
+
+    .footer-note {
+      margin-top: 3rem;
+      padding-top: 1.8rem;
+      border-top: 1px solid #eae7e3;
+      font-size: 0.85rem;
+      color: #8c857e;
+      text-align: left;
+    }
+
+    /* 响应式 */
+    @media (max-width: 480px) {
+      body {
+        padding: 1.2rem 0.8rem 3rem;
+      }
+      .container {
+        padding: 1.8rem 1.2rem;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .nav-links {
+        gap: 1.2rem;
+        flex-wrap: wrap;
+      }
+      .scene-card {
+        padding: 1.2rem 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 顶部导航 -->
+    <div class="nav">
+      <span class="nav-brand">8868</span>
+      <div class="nav-links">
+        <a href="https://portal-8868sport.com">8868体育</a>
+        <a href="#">场景</a>
+        <a href="#">说明</a>
+      </div>
+    </div>
+
+    <!-- 核心介绍 -->
+    <h1>关于稳定入口<br>与页面说明</h1>
+    <p class="subhead">
+      在访问一个平台之前，了解它的基本结构、位置和常见问题，往往比直接搜索更省力。这个页面就是围绕 <a href="https://portal-8868sport.com">8868体育</a> 整理的一些基础叙述——不夸大，只陈述。
+    </p>
+
+    <!-- 三个场景模块 -->
+    <h2>三种常见使用场景</h2>
+    <div class="scene-grid">
+      <div class="scene-card">
+        <h3>直接访问与书签</h3>
+        <p>如果你已经知道 <a href="https://portal-8868sport.com">8868体育</a> 的地址，最稳妥的方式就是把它添加到浏览器书签。每次需要时，从书签栏点击一次即可。省去记忆和输入的麻烦，减少输错网址的可能。</p>
+        <div class="scene-note">→ 适合日常使用频率较高的用户。</div>
+      </div>
+      <div class="scene-card">
+        <h3>通过导航页进入</h3>
+        <p>很多用户习惯把类似页面当作一个轻量导航：先打开这个介绍页，再顺着链接前往 <a href="https://portal-8868sport.com">8868体育</a>。尤其当你在不同设备或网络环境下切换时，保留一个干净的入口页会有帮助。</p>
+        <div class="scene-note">→ 适合需要多设备同步、或偶尔使用的用户。</div>
+      </div>
+      <div class="scene-card">
+        <h3>分享给朋友或同事</h3>
+        <p>当你需要把 <a href="https://portal-8868sport.com">8868体育</a> 推荐给他人时，直接发一个带有简短说明的链接比口头转述更可靠。这个页面本身就是一个可读的参考，对方打开后能快速理解基本要点。</p>
+        <div class="scene-note">→ 适合推荐、协作或简单介绍。</div>
+      </div>
+    </div>
+
+    <!-- 常见说明 · 类似FAQ摘要 -->
+    <h2>一些常见说明</h2>
+    <div class="faq-item">
+      <strong>关于网址与访问</strong>
+      <p>请确保使用正确的域名。如果你是通过搜索找到这里的，那么地址栏中的链接就是当前最直接的访问方式。记得核对一下拼写：portal-8868sport.com 。此外，建议使用主流浏览器并保持更新，兼容性通常更好。</p>
+    </div>
+    <div class="faq-item">
+      <strong>页面内容定位</strong>
+      <p>这个介绍页并不试图替代平台本身，而是作为一个辅助性的稳定入口。它的作用是提供清晰的信息框架，让你快速判断这是否是你需要的站点，同时给出一个直接的访问路径。</p>
+    </div>
+    <div class="faq-item">
+      <strong>遇到加载问题怎么办</strong>
+      <p>如果 <a href="https://portal-8868sport.com">8868体育</a> 暂时无法打开，可以先检查网络连接是否正常，或者稍后再试。也可以清除浏览器缓存、尝试使用不同的网络环境。大部分临时性问题稍后都会恢复。</p>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer-note">
+      简要说明 · 非官方平台 · 内容仅供信息参考 · 版本 2025
+    </div>
+  </div>
+</body>
+</html>
